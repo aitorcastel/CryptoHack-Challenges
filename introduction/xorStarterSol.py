@@ -8,7 +8,6 @@ def xorencript(label):
 def main():
     flag = "label"
     print('crypto{'+xorencript(flag)+'}')
-    #print(xorencript(flag))
 
 if __name__ == "__main__":
     main()
