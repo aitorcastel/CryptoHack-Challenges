@@ -6,8 +6,6 @@ FLAG_KEY1_KEY3_KEY2 = '04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf'
 
 def xor(keyA, keyB):
 
-    keyXor = ''
-
     bytes_keyA = bytes.fromhex(keyA)
     bytes_keyB = bytes.fromhex(keyB)
 
