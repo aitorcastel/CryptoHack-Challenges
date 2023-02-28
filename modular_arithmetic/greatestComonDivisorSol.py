@@ -1,10 +1,6 @@
 def gdc(x:int, y: int) -> int:
     # euclid's algorithm
-
-    if y == 0:
-        return x
-    r = int(x % y)
-    return gdc(y , r)
+    return gdc(int(y%x) , x) if x else y
 
 def main():
 
